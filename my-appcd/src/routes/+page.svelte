@@ -52,7 +52,7 @@
         padding-bottom: 15px;
         border-radius: 15px;
         position: relative;
-        left: 15%;
+        left: 21%;
         top: 4.5%;
         background-color: #001F3F;
         width: 600px;
