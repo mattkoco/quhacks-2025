@@ -3,7 +3,7 @@
 </script>
 <div id="buttText">
     <div id=nav>
-        <a href="https://lbc2.org" target="_blank">
+        <a href="./Sec+" target="_blank">
             <Button class="nav lg">
                 Sec+
             </Button>
