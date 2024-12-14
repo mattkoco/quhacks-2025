@@ -4,3 +4,6 @@ can i get a security clearance . net
 - leaderboards on who is definitely not going to get one
 - 
 fake id detector
+
+we use AI to make questions for compTIA security+ and net+ exam
+- generates practice questions 
