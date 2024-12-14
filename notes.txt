@@ -1,0 +1,4 @@
+FRONTEND
+- html is structure
+- css is style
+- javascript is interactivity and buttons
