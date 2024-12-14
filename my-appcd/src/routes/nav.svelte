@@ -1,5 +1,27 @@
-
+<script>
+    import Button from "./Button.svelte";
+</script>
 <div id=nav>
+    <a href="https://lbc2.org" target="_blank">
+        <Button class="nav lg">
+            Sec+
+        </Button>
+    </a>
+    <a href="https://lbc2.org" target="_blank">
+        <Button class="nav lg">
+            Net+
+        </Button>
+    </a>
+    <a href="https://lbc2.org" target="_blank">
+        <Button class="nav lg">
+            A+
+        </Button>
+    </a>
+    <a href="./" target="_blank">
+        <Button class="nav lg">
+            Home
+        </Button>
+    </a>
 
 </div>
 
