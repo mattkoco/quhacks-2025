@@ -1,32 +1,41 @@
 <script>
     import Button from "./Button.svelte";
 </script>
-<div id=nav>
-    <a href="https://lbc2.org" target="_blank">
-        <Button class="nav lg">
-            Sec+
-        </Button>
-    </a>
-    <a href="https://lbc2.org" target="_blank">
-        <Button class="nav lg">
-            Net+
-        </Button>
-    </a>
-    <a href="https://lbc2.org" target="_blank">
-        <Button class="nav lg">
-            A+
-        </Button>
-    </a>
-    <a href="./" target="_blank">
-        <Button class="nav lg">
-            Home
-        </Button>
-    </a>
-
+<div id="buttText">
+    <div id=nav>
+        <a href="https://lbc2.org" target="_blank">
+            <Button class="nav lg">
+                Sec+
+            </Button>
+        </a>
+        <a href="https://lbc2.org" target="_blank">
+            <Button class="nav lg">
+                Net+
+            </Button>
+        </a>
+        <a href="https://lbc2.org" target="_blank">
+            <Button class="nav lg">
+                A+
+            </Button>
+        </a>
+        <a href="./" target="_blank">
+            <Button class="nav lg">
+                Home
+            </Button>
+        </a>
+    </div>
 </div>
 
 
 <style>
+
+    @import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+    @import url(https://fonts.googleapis.com/css?family=Pavanam);
+
+    #buttText {
+        font-family: "Nico Moji";
+    }
+
     #nav {
         position: fixed;
         top: 0;
