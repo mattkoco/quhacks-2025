@@ -1,5 +1,6 @@
 <script>
     import Nav from "./nav.svelte";
+    import Button from "./Button.svelte"
 </script>
 
 <Nav></Nav>
@@ -12,12 +13,18 @@
         <div id="infoText">
             Click below for more information about who we are.
         </div>
+        <a href="https://lbc2.org" target=”_blank”>
+            <Button class="primary lg">
+                Info
+            </Button>
+        </a>
+
     </div>
 
 </div>
 <div id="backgroundMid">
     <div id="desc">
-        Cert-Breeze is an application designed to make the certification studying<br> process a breeze, by providing endless practice questions for the certification<br> of your choice, in an easy-to-use, multiple choice format.
+        Cert-Breeze is an application designed to make the certification studying<br> process a breeze, by providing practice questions for the certification<br> of your choice, in an easy-to-use, multiple choice format.
     </div>
 </div>
 
@@ -60,6 +67,7 @@
         font-family: 'Pavanam';
         font-weight: 100;
     }
+
 
     #backgroundMid {
         position: fixed;
