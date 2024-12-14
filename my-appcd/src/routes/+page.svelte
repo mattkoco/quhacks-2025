@@ -13,7 +13,7 @@
         <div id="infoText">
             Click below for more information about who we are.
         </div>
-        <a href="https://lbc2.org" target=”_blank”>
+        <a href="./info" target=”_blank”>
             <Button class="primary lg">
                 Info
             </Button>
