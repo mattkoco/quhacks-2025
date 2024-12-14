@@ -8,12 +8,20 @@
     <div id=title>
         Cert-<br>Breeze
     </div>
+    <div id="infoBox">
+        <div id="infoText">
+            Click below for more information about who we are.
+        </div>
+    </div>
+
 </div>
 <div id="backgroundMid">
     <div id="desc">
         Cert-Breeze is an application designed to make the certification studying<br> process a breeze, by providing endless practice questions for the certification<br> of your choice, in an easy-to-use, multiple choice format.
     </div>
 </div>
+
+
 
 <style>
 
@@ -23,7 +31,7 @@
     #backgroundTop {
         position: fixed;
         top: 20%;
-        bottom:40%;
+        bottom:30%;
         left: 0;
         right: 0;
         background-color: #3A6D8C;
@@ -31,11 +39,31 @@
         align-items: center;
         z-index: 1;
     }
-  
+
+    #infoBox {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 15px;
+        position: relative;
+        left: 15%;
+        top: 4.5%;
+        background-color: #001F3F;
+        width: 600px;
+        height: 280px;
+
+    }
+    #infoText {
+
+        font-size: 25px;
+        color: #EAD8B1;
+        text-align: center;
+        font-family: 'Pavanam';
+        font-weight: 100;
+    }
 
     #backgroundMid {
         position: fixed;
-        top: 60%;
+        top: 70%;
         bottom: 0;
         left: 0;
         right: 0;
@@ -45,6 +73,7 @@
         align-items: center;
         z-index: 2;
     }
+
 
     #title {
         font-size: 110px;
