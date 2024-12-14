@@ -1,3 +1,8 @@
+<script>
+    import Nav from "./nav.svelte";
+</script>
+
+<Nav></Nav>
 
 <div id=background>
     <div id=text>
@@ -12,7 +17,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: azure;
+        background-color: #2c556f;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -20,5 +25,6 @@
 
     #text {
         font-size: 80px;
+        color: aliceblue;
     }
 </style>
