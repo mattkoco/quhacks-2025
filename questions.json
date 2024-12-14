@@ -1,0 +1,7 @@
+{"questions":[
+    {"question_number":"0", "question":"", "a":"", "b":"", "c":"", "d":"", "answer":""},
+    {"question_number":"1", "question":"what is a physical security control to prevent a car from ramming into a facility?", "a":"bollard", "b":"security camera", "c":"access badge", "d":"security officer", "answer":"a"},
+    {"question_number":"2", "question":"what is NOT in the CIA triad?", "a":"Confidentiality", "b":"Availability", "c":"Integrity", "d":"Accountability", "answer":"d"},
+    {"question_number":"3", "question":"Which one of these controls are deterrents?", "a":"firewall", "b":"security cameras", "c":"access badge", "d":"IDR", "answer":"b"}
+    ]
+}
